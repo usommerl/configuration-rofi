@@ -1,5 +1,5 @@
 configuration {
   theme: "/usr/share/rofi/themes/android_notification.rasi";
-  run-shell-command: "alacritty -o window.dimensions.columns=9999 -o window.dimensions.lines=9999 -t {cmd} -e {cmd}";
-  ssh-command: "alacritty -o window.dimensions.columns=9999 -o window.dimensions.lines=9999 -t 'SSH {host}' -e {ssh-client} {host}";
+  run-shell-command: "alacritty -o window.dimensions.columns=9999 window.dimensions.lines=9999 -t {cmd} -e {cmd}";
+  ssh-command: "alacritty -o window.dimensions.columns=9999 window.dimensions.lines=9999 -t 'SSH {host}' -e {ssh-client} {host}";
 }
