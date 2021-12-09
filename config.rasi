@@ -1,7 +1,7 @@
 configuration {
-  theme: "~/.config/rofi/themes/custom.rasi";
   run-shell-command: "alacritty -t {cmd} -e {cmd}";
   ssh-command: "alacritty -t 'SSH {host}' -e {ssh-client} {host}";
   dpi: 1;
 }
+@theme "~/.config/rofi/themes/custom.rasi"
 
